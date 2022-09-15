@@ -22,7 +22,6 @@
   border: 1px;
   padding: 10px;
   cursor: pointer;
-
 }
 .selector__buttonBox button:hover { 
   background-color: #f08080;
