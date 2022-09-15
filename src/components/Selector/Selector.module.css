@@ -1,0 +1,31 @@
+.mainBox{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.mainBox__selector{
+  border: 2px solid black;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.selector__name{
+  color: rgb(184, 63, 69);
+}
+
+.selector__buttonBox button{
+  background-color: white;
+  border: 1px;
+  padding: 10px;
+  cursor: pointer;
+
+}
+.selector__buttonBox button:hover { 
+  background-color: #f08080;
+  border-radius: 4px;
+ }
+
